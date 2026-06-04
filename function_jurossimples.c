@@ -1,8 +1,3 @@
-#ifndef FUNCTION_JUROSSIMPLES_C
-#define FUNCTION_JUROSSIMPLES_C
-
-double calcularJuros(double capital, double taxa, double tempo) {
+float jurossimples(float capital, float taxa, int tempo) {
     return capital * taxa * tempo;
 }
-
-#endif
